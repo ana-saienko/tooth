@@ -3,7 +3,38 @@
  */
 
 body {
-	font-family: 'Roboto', sans-serif;
-	color: $textColor;
-	font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: $textColor;
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: $textColor;
+
+  @media (max-width:$md3+px){
+    font-size: 24px;
+    line-height: 30px; 
+  }
+
+  @media (max-width:$md4+px){
+    font-size: 20px;
+    line-height: 26px; 
+  }
+}
+
+.link {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: $textColor;
+
+  max-width: 180px;
+  border: 1px solid $textColor;
+  border-radius: 3px;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 34px;
 }

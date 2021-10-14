@@ -1,0 +1,17 @@
+.products {
+  padding: 98px 0;
+  text-align: center;
+
+  @media (max-width:$md3+px){
+		padding: 70px 0; 
+  }
+}
+.products__container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.products__title {
+  margin-bottom: 44px;
+}
