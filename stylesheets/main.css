@@ -523,6 +523,52 @@ body {
   }
 }
 
+.we-stand {
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.we-stand__container {
+  max-width: 1395px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.we-stand__title {
+  margin-bottom: 45px;
+}
+
+.we-stand__subtext {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.we-stand__box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.we-stand__png {
+  margin-bottom: 26px;
+}
+
+.we-stand__item {
+  max-width: 115px;
+  margin-right: 55px;
+}
+
+.we-stand__item:last-child {
+  margin-right: 0;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;

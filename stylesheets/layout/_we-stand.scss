@@ -1,0 +1,38 @@
+.we-stand {
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.we-stand__container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.we-stand__title {
+  margin-bottom: 45px;
+}
+
+.we-stand__subtext {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.we-stand__box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.we-stand__png {
+  margin-bottom: 26px;
+}
+
+.we-stand__item {
+	max-width: 115px;
+  margin-right: 55px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
