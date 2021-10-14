@@ -2,7 +2,21 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-.header__menu-list {
-	display: flex;
-	justify-content: space-between;
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  background-color: $textColor;
+  padding: 30px 57px;
+
+  @media (max-width: $md4+px) {
+    padding: 20px 27px;
+  }
+}
+
+.header__container {
+  max-width: $maxWidthContainer;
+  margin: 0 auto;
 }

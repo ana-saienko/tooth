@@ -1,0 +1,32 @@
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+
+	@media (max-width:$md4+px){
+		 flex-direction: column; 
+	}
+}
+
+.menu__item {
+	margin-right: 33px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	@media (max-width:$md4+px){
+		 margin-right: 0px; 
+	}
+}
+
+.menu__link {
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0.21px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  @media (max-width:$md4+px){
+		font-size: 12px;
+  }
+}

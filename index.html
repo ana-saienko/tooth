@@ -5,6 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="format-detection" content="telephone=no" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="stylesheets/main.css" />
 
     <!-- <meta name="robots" content="noindex, nofollow"> -->
@@ -14,30 +21,35 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="header__menu">
-          <div class="icon-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
-            <nav class="menu__body">
-              <ul class="header__menu-list">
-                <li class="header__menu-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="#about">About us</a>
-                </li>
-                <li class="header__menu-item">
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
+        <div class="header__container">
+          <ul class="header__menu menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Better</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Shop</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Subscription</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Contact</a>
+            </li>
+          </ul>
         </div>
       </header>
 
       <main class="page">
-        <section id="about"></section>
+        <section class="fullscreen hero">
+          <div class="fullscreen__body">
+            <div class="hero__container">
+              <div class="hero__img">
+                <img src="images/logo.png" alt="" class="hero__pic" />
+              </div>
+              <h2 class="hero__subtitle">Natural + Sustainable Oral Care</h2>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

@@ -2,3 +2,8 @@
  * Basic typography style for copy text
  */
 
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $textColor;
+	font-weight: 400;
+}
