@@ -1,0 +1,22 @@
+.banner__title {
+  font-size: 110px;
+  line-height: 166px;
+  text-align: center;
+  color: #fdfbed;
+  white-space: nowrap;
+  margin-left: -35%;
+
+  @media (max-width: $md2+px) {
+    font-size: 54px;
+    margin-left: -25%;
+  }
+
+  @media (max-width: $md3+px) {
+    font-size: 42px;
+  }
+
+  @media (max-width:$md4+px){
+    font-size: 22px; 
+    margin-left: -5%;
+  }
+}

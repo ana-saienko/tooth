@@ -20,6 +20,11 @@
 .grid__item {
   background-color: $bg-item;
   padding-bottom: 36px;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    box-shadow: (5px 5px 15px rgba(0, 0, 0, 0.1));
+  }
 }
 
 .grid__product {
@@ -32,15 +37,16 @@
 
 .grid__product-name,
 .grid__product-price {
+  color: $textColor;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.26px;
   padding: 30px 0 15px;
   line-height: 22px;
 
-  @media (max-width:$md4+px){
-	font-size: 14px;
-	line-height: 20px;
+  @media (max-width: $md4+px) {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
