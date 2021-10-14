@@ -1,0 +1,38 @@
+.form {
+	display: flex;
+}
+
+.form__input {
+	flex-basis: 242px;
+	font-size: 12px;
+	line-height: 32px;
+	letter-spacing: 0.2px;
+	text-transform: capitalize;
+	color: #EDDBBE;
+
+	background-color: transparent;
+	padding: 10px 13px;
+	border: 1px solid #EDDBBE;
+
+	&::placeholder {
+		font-size: 12px;
+		line-height: 32px;
+		letter-spacing: 0.2px;
+		text-transform: capitalize;
+		color: #EDDBBE;
+	}
+}
+
+.form__btn {
+	margin-left: 6px;
+	width: 42px;
+	height: 54px;
+	background-color: #EEDBBF;
+	border: 1px solid transparent;
+	transition: all .3s ease-in;
+
+	&:hover {
+		border: 1px solid #EEDBBF;	
+		background-color: transparent;
+	}
+}
