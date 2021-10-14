@@ -9,6 +9,31 @@
   padding: 0 15px;
 }
 
+// ========================================================
+// FLEX
+// ========================================================
+
+.we-stand__box {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  
+  gap: 55px;
+
+  @media (max-width:$md2+px){
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.we-stand__item {
+	flex-basis: 115px;
+}
+
+// ========================================================
+// TYPO
+// ========================================================
+
 .we-stand__title {
   margin-bottom: 45px;
 }
@@ -19,20 +44,15 @@
   text-align: center;
 }
 
-.we-stand__box {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
+// ========================================================
+// IMAGES
+// ========================================================
 
 .we-stand__png {
   margin-bottom: 26px;
-}
 
-.we-stand__item {
-	max-width: 115px;
-  margin-right: 55px;
-  &:last-child {
-    margin-right: 0;
-  }
+  width: 47px;
+  height: 47px;
+
+  object-fit: contain;
 }
